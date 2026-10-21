@@ -1,0 +1,9 @@
+[project]
+name = "factory-qc"
+version = "1.0.0"
+description = "DFA and regular expression for a packaging-line quality-control system"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
